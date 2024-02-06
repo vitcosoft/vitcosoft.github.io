@@ -1,0 +1,15 @@
+{
+  "name": "vitcosoft.github.io",
+  "version": "1.0.0",
+  "description": "Hejka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
+  },
+  "author": "Witold Wozniak",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
